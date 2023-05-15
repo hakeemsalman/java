@@ -709,3 +709,4 @@ public class SearchInRange {
     }
 }
 ```
+### Find Minimum number
