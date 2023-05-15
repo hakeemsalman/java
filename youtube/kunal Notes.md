@@ -568,12 +568,11 @@ public class MultiAL {
 > arr = [19,12,9,14,77,50] ; size = 6
 > find whether 14 exits in array or not
 > if no value find, return -1
-
+```output
 Time complexity:
-=====================
 best: `O(1)`
 worst case: `O(N)`
-
+```
 ```java
 public class Main {
 
@@ -640,4 +639,45 @@ public class Main {
 
 }
    
+ ```
+ Search in Srings
+ ```java
+ import java.util.Arrays;
+
+public class SearchInStrings {
+    public static void main(String[] args) {
+        String name = "Kunal";
+        char target = 'u';
+//        System.out.println(search(name, target));
+
+        System.out.println(Arrays.toString(name.toCharArray()));
+    }
+
+
+    static boolean search2(String str, char target) {
+        if (str.length() == 0) {
+            return false;
+        }
+
+        for(char ch : str.toCharArray()) {
+            if (ch == target) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    static boolean search(String str, char target) {
+        if (str.length() == 0) {
+            return false;
+        }
+
+        for (int i = 0; i < str.length(); i++) {
+            if (target == str.charAt(i)) {
+                return true;
+            }
+        }
+        return false;
+    }
+}
  ```
