@@ -12,7 +12,7 @@
 8. [Swap Two Numbers](#swap-two-numbers)
 9. [ArmStrong Numbers](#armstrong-numbers)
 
-## Basics 
+## [Basics First Java](#02-first-java)  
 ----------------
 1. [Write a program to print whether a number is even or odd, also take input from the user](#write-a-program-to-print-whether-a-number-is-even-or-odd,-also-take-input-from-the-user)
 2. [Take name as input and print a greeting message for that particular name.](#take-name-as-input-and-print-a-greeting-message-for-that-particular-name.)
