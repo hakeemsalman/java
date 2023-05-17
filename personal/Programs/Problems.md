@@ -343,7 +343,7 @@ public class Swap {
 
 # 02 First Java
 
-## Write a program to print whether a number is even or odd, also take input from the user.
+## Write a program to print whether a number is even or odd, also take input from the user
 
 ```java
 import java.util.Scanner;
