@@ -11,18 +11,20 @@
 7. [Reverse](#reverse)
 8. [Swap Two Numbers](#swap-two-numbers)
 9. [ArmStrong Numbers](#armstrong-numbers)
+10. [Find max value in Array](#find-max-value-in-array)
+11. [Swap values in Array](#swap-values-in-array)
 
 ## [Basics First Java](#02-first-java)  
 ----------------
 1. [Write a program to print whether a number is even or odd, also take input from the user](#write-a-program-to-print-whether-a-number-is-even-or-odd-also-take-input-from-the-user)
 2. [Take name as input and print a greeting message for that particular name.](#take-name-as-input-and-print-a-greeting-message-for-that-particular-name)
-3. Write a program to input principal, time, and rate (P, T, R) from the user and find Simple Interest.
-4. Take in two numbers and an operator (+, -, *, /) and calculate the value. (Use if conditions)
-5. Take 2 numbers as input and print the largest number.
-6. Input currency in rupees and output in USD.
-7. To calculate Fibonacci Series up to n numbers.
-8. To find out whether the given String is Palindrome or not.
-9. To find Armstrong Number between two given number.
+3. [Write a program to input principal, time, and rate (P, T, R) from the user and find Simple Interest](#write-a-program-to-input-principal-time-and-rate-(p-t-r)-from-the-user-and-find-simple-interest)
+4. [Take in two numbers and an operator *plus* *minux* *multiply* *divide* and calculate the value Use if conditions](#)
+5. [Take 2 numbers as input and print the largest number](#)
+6. [Input currency in rupees and output in USD](#)
+7. [To calculate Fibonacci Series up to n numbers](#)
+8. [To find out whether the given String is Palindrome or not](#)
+9. [To find Armstrong Number between two given number](#)
 
 --------------
 
@@ -346,7 +348,7 @@ public class Swap {
 
 # 02 First Java
 
-## Write a program to print whether a number is even or odd also take input from the user
+1. ## Write a program to print whether a number is even or odd also take input from the user
 
 ```java
 import java.util.Scanner;
@@ -364,7 +366,7 @@ public class Main {
     }
 }
 ```
-## Take name as input and print a greeting message for that particular name
+2. ## Take name as input and print a greeting message for that particular name
 ```java
 
 import java.util.Scanner;
@@ -380,7 +382,7 @@ public class GreetMessage {
 }
 ```
 
-## 3. Write a program to input principal, time, and rate (P, T, R) from the user and find Simple Interest.
+3. ## Write a program to input principal time and rate (P T R) from the user and find Simple Interest
 ```java
 import java.util.Scanner;
 
@@ -397,7 +399,7 @@ public class SimpleInterest {
 }
 ```
 
-## 4. Take in two numbers and an operator (+, -, *, /) and calculate the value. (Use if conditions)
+## 4 Take in two numbers and use an operator and calculate the value
 ```java
 import java.util.Scanner;
 
@@ -423,7 +425,7 @@ public class calculate {
     }
 }
 ```
-## 5. Take 2 numbers as input and print the largest number.
+## 5 Take 2 numbers as input and print the largest number.
 ```java
 import java.util.Scanner;
 
