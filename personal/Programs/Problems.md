@@ -340,6 +340,7 @@ public class Swap {
     }
 }
 ```
+[<kbd>Up<kbd](#list-of-problems)
 
 # 02 First Java
 
