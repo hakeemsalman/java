@@ -1,6 +1,6 @@
 # Problems
 
-## List of Problems
+## 01 List of Problems
 --------------------------
 1. [Prime Number](#1-prime-number-check)
 2. [Leay Year](#2-leap-year)
@@ -14,8 +14,10 @@
 10. [Find max value in Array](#10-find-max-value-in-array)
 11. [Swap values in Array](#11-swap-values-in-array)
 
-## [Basics First Java](#02-first-java)  
+## [02 Basics First Java](#02-first-java)  
+
 ----------------
+
 1. [Write a program to print whether a number is even or odd, also take input from the user](#1-write-a-program-to-print-whether-a-number-is-even-or-odd-also-take-input-from-the-user)
 2. [Take name as input and print a greeting message for that particular name.](#2-take-name-as-input-and-print-a-greeting-message-for-that-particular-name)
 3. [Write a program to input principal, time, and rate (P, T, R) from the user and find Simple Interest](#3-write-a-program-to-input-principal-time-and-rate-p-t-r-from-the-user-and-find-simple-interest)
@@ -25,6 +27,12 @@
 7. [To calculate Fibonacci Series up to n numbers](#7-to-calculate-fibonacci-series-up-to-n-numbers)
 8. [To find out whether the given String is Palindrome or not](#8-to-find-out-whether-the-given-string-is-palindrome-or-not)
 9. [To find Armstrong Number between two given number](#9-to-find-armstrong-number-between-two-given-3-digit-numbers)
+
+--------------
+
+## 03 Conditional Loops
+
+[This Page](../Problems2.md)
 
 --------------
 
