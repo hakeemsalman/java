@@ -16,15 +16,15 @@
 
 ## [Basics First Java](#02-first-java)  
 ----------------
-1. [Write a program to print whether a number is even or odd, also take input from the user](#write-a-program-to-print-whether-a-number-is-even-or-odd-also-take-input-from-the-user)
-2. [Take name as input and print a greeting message for that particular name.](#take-name-as-input-and-print-a-greeting-message-for-that-particular-name)
+1. [Write a program to print whether a number is even or odd, also take input from the user](#1-write-a-program-to-print-whether-a-number-is-even-or-odd-also-take-input-from-the-user)
+2. [Take name as input and print a greeting message for that particular name.](#2-take-name-as-input-and-print-a-greeting-message-for-that-particular-name)
 3. [Write a program to input principal, time, and rate (P, T, R) from the user and find Simple Interest](#3-write-a-program-to-input-principal-time-and-rate-p-t-r-from-the-user-and-find-simple-interest)
-4. [Take in two numbers and an operator *plus* *minux* *multiply* *divide* and calculate the value Use if conditions](#)
-5. [Take 2 numbers as input and print the largest number](#)
-6. [Input currency in rupees and output in USD](#)
-7. [To calculate Fibonacci Series up to n numbers](#)
-8. [To find out whether the given String is Palindrome or not](#)
-9. [To find Armstrong Number between two given number](#)
+4. [Take in two numbers and an operator *plus* *minux* *multiply* *divide* and calculate the value Use if conditions](#4-)
+5. [Take 2 numbers as input and print the largest number](#5-)
+6. [Input currency in rupees and output in USD](#6-)
+7. [To calculate Fibonacci Series up to n numbers](#7-)
+8. [To find out whether the given String is Palindrome or not](#8-)
+9. [To find Armstrong Number between two given number](#9-)
 
 --------------
 
@@ -345,7 +345,7 @@ public class Swap {
 }
 ```
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX			NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
-
+[<h3 style="text-align:center; color: red">Back to Top</h3>](#list-of-problems)
 NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN		XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 
