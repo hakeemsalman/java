@@ -2,34 +2,34 @@
 
 -------------
 
-1. Area Of Circle Java Program
-2. Area Of Triangle
-3. Area Of Rectangle Program
-4. Area Of Isosceles Triangle
-5. Area Of Parallelogram
-6. Area Of Rhombus
-7. Area Of Equilateral Triangle
-8. Perimeter Of Circle
-9. Perimeter Of Equilateral Triangle
-10. Perimeter Of Parallelogram
-11. Perimeter Of Rectangle
-12. Perimeter Of Square
-13. Perimeter Of Rhombus
-14. Volume Of Cone Java Program
-15. Volume Of Prism
-16. Volume Of Cylinder
-17. Volume Of Sphere
-18. Volume Of Pyramid
-19. Curved Surface Area Of Cylinder
-20. Total Surface Area Of Cube
-21. Fibonacci Series In Java Programs
-22. Subtract the Product and Sum of Digits of an Integer
-23. Input a number and print all the factors of that number (use loops).
-24. Take integer inputs till the user enters 0 and print the sum of all numbers (HINT: while loop)
-25. Take integer inputs till the user enters 0 and print the largest number from all.
+1. [Area Of Circle Java Program](#1-area-of-circle-java-program)
+2. [Area Of Triangle](#2-area-of-isosceles-triangle)
+3. [Area Of Rectangle Program](#3-area-of-rectangle)
+4. [Area Of Isosceles Triangle](#3-area-of-isosceles-triangle)
+5. [Area Of Parallelogram](#5-area-of-parallelogram)
+6. [Area Of Rhombus](#6-area-of-rhombus)
+7. [Area Of Equilateral Triangle](#7-area-of-equilateral-triangle)
+8. [Perimeter Of Circle](#8-perimeter-of-circle)
+9. [Perimeter Of Equilateral Triangle](#9-perimeter-of-equilateral-triangle)
+10. [Perimeter Of Parallelogram](#10-perimeter-of-parallelogram)
+11. [Perimeter Of Rectangle](#11-perimeter-of-rectangle)
+12. [Perimeter Of Square](#12-perimeter-of-square)
+13. [Perimeter Of Rhombus](#13-perimeter-of-rhombus)
+14. [Volume Of Cone Java Program](#14-volume-of-cone)
+15. [Volume Of Prism](#15-volume-of-prism)
+16. [olume Of Cylinder](#16-volume-of-cylinder)
+17. [Volume Of Sphere](#17-volume-of-sphere)
+18. [Volume Of Pyramid](#18-volume-of-pyramid)
+19. [Curved Surface Area Of Cylinder](#19-curved-surface-area-of-cylinder)
+20. [Total Surface Area Of Cube](#20-total-surface-area-of-cube)
+21. [Fibonacci Series In Java Programs](#21-fibonacci-series-in-java)
+22. [Subtract the Product and Sum of Digits of an Integer](#22-given-an-integer-number-n-return-the-difference-between-the-product-of-its-digits-and-the-sum-of-its-digits)
+23. [Input a number and print all the factors of that number (use loops).](#23-input-a-number-and-print-all-the-factors-of-that-number-use-loops)
+24. [Take integer inputs till the user enters 0 and print the sum of all numbers (HINT: while loop)](#24-take-integer-inputs-till-the-user-enters-0-and-print-the-sum-of-all-numbers)
+25. [Take integer inputs till the user enters 0 and print the largest number from all](#35-take-integer-inputs-till-the-user-enters-0-and-print-the-largest-number-from-all)
 
 # [Intermediate Java Programs](#intermediate-java-programs)
-
+1. [Factorial Program In Java](#1-factorial-Program-in-java)
 ---
 
 ---
@@ -370,7 +370,7 @@ public class Fibonacci {
 }
 ```
 
-### 21 Given an integer number n, return the difference between the product of its digits and the sum of its digits.
+### 21 Given an integer number n return the difference between the product of its digits and the sum of its digits
 ```java
 import java.util.Scanner;
 
@@ -392,7 +392,7 @@ public class Main {
 }
 ```
 
-### 22 Input a number and print all the factors of that number (use loops).
+### 22 Input a number and print all the factors of that number use loops
 ```java
 import java.util.Scanner;
 
@@ -411,7 +411,7 @@ public class Main {
 }
 ```
 
-### 23 Take integer inputs till the user enters 0 and print the sum of all numbers (HINT: while loop)
+### 23 Take integer inputs till the user enters 0 and print the sum of all numbers
 ```java
 import java.util.Scanner;
 
