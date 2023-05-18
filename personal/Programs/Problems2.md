@@ -488,3 +488,113 @@ public class Main {
 ## Intermediate Java Programs
 
 ### 1 Factorial Program In Java
+factorial
+
+```java
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.println(factorial(input.nextInt()));
+    }
+  static long factorial(int n){
+        long value = 1;
+        for (int i = 1; i <= n; i++) {
+            value*=i;
+        }
+        return value;
+    }
+}
+```
+
+### 2 Calculate Electricity Bill
+
+```java
+	import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+         System.out.println(electricBill(input.nextInt()));
+    }
+  static double electricBill(int n){
+        double sum = 1;
+        if(n<0){
+            return -1;
+        }
+        if(n<50) return sum * 1.45;
+		else if (n >50 && n < 100) return (sum * 1.15) + sum * 3.75;
+		else return sum = (sum * 1.15) + (sum * 3.75) + (sum * 5.25);
+    }
+}
+```
+### 3 Calculate Average Of N Numbers
+
+```java
+	import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+         System.out.println(electricBill(input.nextInt()));
+    }
+  static double average(int n){
+        double avg = 0,c = 0;
+        for (int i = 1; i <= n; i++) {
+            avg+=i;
+            c++;
+        }
+        return avg/c;
+    }
+}
+```
+
+### 4 Calculate Discount Of Product
+
+```java
+	import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+         System.out.println(discount(input.nextInt(), input.nextInt()));
+    }
+  static double discount(int orig, int fin){
+        double sum = 0;
+        sum = orig - fin;
+        return (sum/=orig) * 100;
+        /*
+        * sum/=orig * 100 --> sum/=(orig * 100) --> sum = sum / SOMEVALUE
+        * (sum/=orig) * 100 --> ANOTHERVALUE * 100
+        * */
+    }
+}
+```
+### 22 Perfect Numbers
+```java
+	import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+         System.out.println(perfect(input.nextInt()));
+    }
+  static boolean perfect(int n){
+        int sum = 0;
+        for (int i = 1; i < n; i++) {
+            if(n % i == 0){
+                sum+=i;
+            }
+        }
+        return sum == n;
+    }
+}
+
+```
+
+
+
+
+
+
