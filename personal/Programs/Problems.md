@@ -340,7 +340,7 @@ public class Swap {
     }
 }
 ```
-[<kbd>Up<kbd](#list-of-problems)
+[<kbd style="text-align: center; font-size: 100px;">&#8593;</kbd>](#list-of-problems)
 
 # 02 First Java
 
