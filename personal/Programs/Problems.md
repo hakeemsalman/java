@@ -2,33 +2,33 @@
 
 ## List of Problems
 --------------------------
-1. [Prime Number](#prime-number-check)
-2. [Leay Year](#leap-year)
-3. [Find the Largest number](#find-the-largest-number)
-4. [Check letter is Upper or Lower case](#check-letter-is-upper-or-lower-case)
-5. [Fibonacci number](#fibonacci-number)
-6. [Counting Occurances](#counting-occurances)
-7. [Reverse](#reverse)
-8. [Swap Two Numbers](#swap-two-numbers)
-9. [ArmStrong Numbers](#armstrong-numbers)
-10. [Find max value in Array](#find-max-value-in-array)
-11. [Swap values in Array](#swap-values-in-array)
+1. [Prime Number](#1-prime-number-check)
+2. [Leay Year](#2-leap-year)
+3. [Find the Largest number](#3-find-the-largest-number)
+4. [Check letter is Upper or Lower case](#4-check-letter-is-upper-or-lower-case)
+5. [Fibonacci number](#5-fibonacci-number)
+6. [Counting Occurances](#6-counting-occurances)
+7. [Reverse](#7-reverse)
+8. [Swap Two Numbers](#8-swap-two-numbers)
+9. [ArmStrong Numbers](#9-armstrong-numbers)
+10. [Find max value in Array](#10-find-max-value-in-array)
+11. [Swap values in Array](#11-swap-values-in-array)
 
 ## [Basics First Java](#02-first-java)  
 ----------------
 1. [Write a program to print whether a number is even or odd, also take input from the user](#1-write-a-program-to-print-whether-a-number-is-even-or-odd-also-take-input-from-the-user)
 2. [Take name as input and print a greeting message for that particular name.](#2-take-name-as-input-and-print-a-greeting-message-for-that-particular-name)
 3. [Write a program to input principal, time, and rate (P, T, R) from the user and find Simple Interest](#3-write-a-program-to-input-principal-time-and-rate-p-t-r-from-the-user-and-find-simple-interest)
-4. [Take in two numbers and an operator *plus* *minux* *multiply* *divide* and calculate the value Use if conditions](#4-)
-5. [Take 2 numbers as input and print the largest number](#5-)
-6. [Input currency in rupees and output in USD](#6-)
-7. [To calculate Fibonacci Series up to n numbers](#7-)
-8. [To find out whether the given String is Palindrome or not](#8-)
-9. [To find Armstrong Number between two given number](#9-)
+4. [Take in two numbers and an operator *plus* *minux* *multiply* *divide* and calculate the value Use if conditions](#4-take-in-two-numbers-and-use-an-operator-and-calculate-the-value)
+5. [Take 2 numbers as input and print the largest number](#5-take-2-numbers-as-input-and-print-the-largest-number)
+6. [Input currency in rupees and output in USD](#6-input-currency-in-rupees-and-output-in-usd)
+7. [To calculate Fibonacci Series up to n numbers](#7-to-calculate-fibonacci-series-up-to-n-numbers)
+8. [To find out whether the given String is Palindrome or not](#8-to-find-out-whether-the-given-string-is-palindrome-or-not)
+9. [To find Armstrong Number between two given number](#9-to-find-armstrong-number-between-two-given-3-digit-numbers)
 
 --------------
 
-1. ## Prime Number Check
+## 1 Prime Number Check
 ```java
 static boolean isPrime(int n)
     {
@@ -73,7 +73,7 @@ public class Main(){
 
 ---
 
-2. ## Leap Year
+## 2 Leap Year
 
 ```java
  int x=1800;
@@ -103,7 +103,7 @@ This above code works properly :smile:
 
 ---
 
-3. ## Find the Largest number
+## 3 Find the Largest number
 
 ```java
 public class Main{
@@ -126,7 +126,7 @@ public class Main{
 ```
 ---
 
-4. ## Check letter is Upper or Lower case
+## 4 Check letter is Upper or Lower case
 
 ```java
 public class Main(){
@@ -144,7 +144,7 @@ public class Main(){
 ```
 ---
 
-5. ## Fibonacci number
+## 5 Fibonacci number
 
 ```java
 public class Main(){
@@ -173,7 +173,7 @@ public class Main(){
 ```
 ---
 
-6. ## Counting Occurances
+## 6 Counting Occurances
 
 ```java
 public class Main(){
@@ -198,7 +198,7 @@ public class Main(){
 ```
 ---
 
-7. ## Reverse
+## 7 Reverse
 
 ```java
 public class Main(){
@@ -218,7 +218,7 @@ public class Main(){
 ```
 
 ---
-8. ## Swap two numbers
+## 8  Swap two numbers
 
 ```java
 public class Main(){
@@ -238,7 +238,7 @@ public class Main(){
 }
 ```
 ---
-9. ## ArmStrong Numbers
+## 9 ArmStrong Numbers
 
 suppose a number is 153 then split individual and cube each number and then add it with others. if the result number is same then it is armstrong number.
 
@@ -272,7 +272,7 @@ public class Main(){
 }
 ```
 ---
-10. ## Find max value in Array
+## 10 Find max value in Array
 ```java
 public class Max {
     public static void main(String[] args) {
@@ -314,7 +314,7 @@ public class Max {
     }
 }
 ```
-11. ## Swap values in Array
+## 11 Swap values in Array
 ```java
 import java.util.Arrays;
 
@@ -345,7 +345,7 @@ public class Swap {
 }
 ```
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX			NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
-[<h3 style="text-align:center; color: red">Back to Top</h3>](#list-of-problems)
+[<h3 align="center">Back to Top</h3>](#list-of-problems)
 NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN		XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 
@@ -428,7 +428,7 @@ public class calculate {
     }
 }
 ```
-## 5 Take 2 numbers as input and print the largest number.
+## 5 Take 2 numbers as input and print the largest number
 ```java
 import java.util.Scanner;
 
@@ -447,7 +447,7 @@ public class largestNumber {
     }
 }
 ```
-## 6. Input currency in rupees and output in USD.
+## 6 Input currency in rupees and output in USD
 ```java
 import java.util.Scanner;
 
@@ -461,7 +461,7 @@ public class convertCurrency {
     }
 }
 ```
-## 7. To calculate Fibonacci Series up to n numbers.
+## 7 To calculate Fibonacci Series up to n numbers
 ```java
 // Type 1
 //=======================
@@ -514,7 +514,7 @@ public class fibo {
 }
 
 ```
-## 8. To find out whether the given String is Palindrome or not.
+## 8 To find out whether the given String is Palindrome or not
 ```java
 //This program runs on NUMBERS
 import java.util.Scanner;
@@ -536,7 +536,7 @@ public class palindrome {
     }
 }
 ```
-## 9. To find Armstrong Number between two given 3 digit numbers.
+## 9 To find Armstrong Number between two given 3 digit numbers
 ```java
 import java.util.Scanner;
 
