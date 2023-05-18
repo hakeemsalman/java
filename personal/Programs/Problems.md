@@ -124,7 +124,7 @@ public class Main{
 ```
 ---
 
-## Check letter is Upper or Lower case
+4. ## Check letter is Upper or Lower case
 
 ```java
 public class Main(){
@@ -142,7 +142,7 @@ public class Main(){
 ```
 ---
 
-## Fibonacci number
+5. ## Fibonacci number
 
 ```java
 public class Main(){
@@ -171,7 +171,7 @@ public class Main(){
 ```
 ---
 
-## Counting Occurances
+6. ## Counting Occurances
 
 ```java
 public class Main(){
@@ -196,7 +196,7 @@ public class Main(){
 ```
 ---
 
-## Reverse
+7. ## Reverse
 
 ```java
 public class Main(){
@@ -216,7 +216,7 @@ public class Main(){
 ```
 
 ---
-## Swap two numbers
+8. ## Swap two numbers
 
 ```java
 public class Main(){
@@ -236,7 +236,7 @@ public class Main(){
 }
 ```
 ---
-## ArmStrong Numbers
+9. ## ArmStrong Numbers
 
 suppose a number is 153 then split individual and cube each number and then add it with others. if the result number is same then it is armstrong number.
 
@@ -270,7 +270,7 @@ public class Main(){
 }
 ```
 ---
-## Find max value in Array
+10. ## Find max value in Array
 ```java
 public class Max {
     public static void main(String[] args) {
@@ -312,7 +312,7 @@ public class Max {
     }
 }
 ```
-## Swap values in Array
+11. ## Swap values in Array
 ```java
 import java.util.Arrays;
 
@@ -342,7 +342,7 @@ public class Swap {
     }
 }
 ```
-[<kbd style="text-align: center; font-size: 100px;">&#8593;</kbd>](#list-of-problems)
+[<kbd align="right">UP</kbd>](#list-of-problems)
 
 # 02 First Java
 
