@@ -23,7 +23,7 @@
 19. [Curved Surface Area Of Cylinder](#18-curved-surface-area-of-cylinder)
 20. [Total Surface Area Of Cube](#19-total-surface-area-of-cube)
 21. [Fibonacci Series In Java Programs](#20-fibonacci-series-in-java)
-22. [Subtract the Product and Sum of Digits of an Integer](#21-given-an-integer-number-n-return-the-difference-between-the-product-of-its-digits-and-the-sum-of-its-digits)[ - Leetcode Problem](https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/)
+22. [Subtract the Product and Sum of Digits of an Integer](#21-given-an-integer-number-n-return-the-difference-between-the-product-of-its-digits-and-the-sum-of-its-digits)[ - Leetcode Problem LINK](https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/)
 23. [Input a number and print all the factors of that number (use loops).](#22-input-a-number-and-print-all-the-factors-of-that-number-use-loops)
 24. [Take integer inputs till the user enters 0 and print the sum of all numbers (HINT: while loop)](#23-take-integer-inputs-till-the-user-enters-0-and-print-the-sum-of-all-numbers)
 25. [Take integer inputs till the user enters 0 and print the largest number from all](#24-take-integer-inputs-till-the-user-enters-0-and-print-the-largest-number-from-all)
