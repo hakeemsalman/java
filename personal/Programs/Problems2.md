@@ -28,10 +28,13 @@
 24. Take integer inputs till the user enters 0 and print the sum of all numbers (HINT: while loop)
 25. Take integer inputs till the user enters 0 and print the largest number from all.
 
+# [Intermediate Java Programs](#intermediate-java-programs)
 
-# 03 Conditionals Loops
-## Basic Java Programs
-### 1. Area Of Circle Java Program
+---
+
+---
+
+### 1 Area Of Circle Java Program
 ```java
 import java.util.Scanner;
 
@@ -48,7 +51,7 @@ public class Area {
     }
 }
 ```
-### 2. Area Of Isosceles Triangle
+### 2 Area Of Isosceles Triangle
 
 ```java
 import java.util.Scanner;
@@ -63,7 +66,7 @@ public class Area {
 }
 
 ```
-### 3. Area of Rectangle
+### 3 Area of Rectangle
 ```java
 import java.util.Scanner;
 
@@ -79,7 +82,7 @@ public class Area {
 }
 ```
 
-### 4. Area Of Parallelogram
+### 4 Area Of Parallelogram
 ```java
 import java.util.Scanner;
 
@@ -95,7 +98,7 @@ public class Area {
 }
 ```
 
-### 5. Area Of Rhombus
+### 5 Area Of Rhombus
 ```java
 import java.util.Scanner;
 
@@ -111,7 +114,7 @@ public class Area {
 }
 ```
 
-### 6. Area Of Equilateral Triangle
+### 6 Area Of Equilateral Triangle
 ```java
 import java.util.Scanner;
 
@@ -128,7 +131,7 @@ public class Area {
 ```
 
 
-### 7. Perimeter Of Circle
+### 7 Perimeter Of Circle
 ```java
 import java.util.Scanner;
 
@@ -145,7 +148,7 @@ public class Area {
 }
 ```
 
-### 8. Perimeter Of Equilateral Triangle
+### 8 Perimeter Of Equilateral Triangle
 ```java
 import java.util.Scanner;
 
@@ -160,7 +163,7 @@ public class Area {
     }
 }
 ```
-### 9. Perimeter Of Parallelogram
+### 9 Perimeter Of Parallelogram
 ```java
 import java.util.Scanner;
 
@@ -176,7 +179,7 @@ public class Area {
 }
 ```
 
-### 10. Perimeter Of Rectangle
+### 10 Perimeter Of Rectangle
 ```java
 import java.util.Scanner;
 
@@ -191,7 +194,7 @@ public class Area {
     }
 }
 ```
-### 11. Perimeter Of Square
+### 11 Perimeter Of Square
 ```java
 import java.util.Scanner;
 
@@ -207,7 +210,7 @@ public class Area {
 }
 ```
 
-### 12. Perimeter Of Rhombus
+### 12 Perimeter Of Rhombus
 ```java
 import java.util.Scanner;
 
@@ -223,7 +226,7 @@ public class Area {
 }
 ```
 
-### 13. Volume Of Cone
+### 13 Volume Of Cone
 ```java
 import java.util.Scanner;
 
@@ -240,7 +243,7 @@ public class Area {
 }
 ```
 
-### 14. Volume Of Prism
+### 14 Volume Of Prism
 ```java
 import java.util.Scanner;
 
@@ -260,7 +263,7 @@ public class Area {
     }
 }
 ```
-### 15. Volume Of Cylinder
+### 15 Volume Of Cylinder
 ```java
 import java.util.Scanner;
 
@@ -277,7 +280,7 @@ public class Area {
 }
 ```
 
-### 16. Volume Of Sphere
+### 16 Volume Of Sphere
 ```java
 import java.util.Scanner;
 
@@ -294,7 +297,7 @@ public class Area {
 }
 ```
 
-### 17. Volume Of Pyramid
+### 17 Volume Of Pyramid
 ```java
 import java.util.Scanner;
 
@@ -310,7 +313,7 @@ public class Area {
 }
 ```
 
-### 18. Curved Surface Area Of Cylinder
+### 18 Curved Surface Area Of Cylinder
 ```java
 import java.util.Scanner;
 
@@ -327,7 +330,7 @@ public class Area {
 }
 ```
 
-### 19. Total Surface Area Of Cube
+### 19 Total Surface Area Of Cube
 ```java
 import java.util.Scanner;
 
@@ -344,7 +347,7 @@ public class Area {
 }
 ```
 
-### 20. Fibonacci Series In Java
+### 20 Fibonacci Series In Java
 ```java
 import java.util.Scanner;
 
@@ -367,7 +370,7 @@ public class Fibonacci {
 }
 ```
 
-### 21. Given an integer number n, return the difference between the product of its digits and the sum of its digits.
+### 21 Given an integer number n, return the difference between the product of its digits and the sum of its digits.
 ```java
 import java.util.Scanner;
 
@@ -389,7 +392,7 @@ public class Main {
 }
 ```
 
-### 22. Input a number and print all the factors of that number (use loops).
+### 22 Input a number and print all the factors of that number (use loops).
 ```java
 import java.util.Scanner;
 
@@ -408,7 +411,7 @@ public class Main {
 }
 ```
 
-### 23. Take integer inputs till the user enters 0 and print the sum of all numbers (HINT: while loop)
+### 23 Take integer inputs till the user enters 0 and print the sum of all numbers (HINT: while loop)
 ```java
 import java.util.Scanner;
 
@@ -431,7 +434,7 @@ public class Main {
 }
 ```
 
-### 24. Take integer inputs till the user enters 0 and print the largest number from all.
+### 24 Take integer inputs till the user enters 0 and print the largest number from all.
 ```java
 import java.util.Scanner;
 
@@ -458,4 +461,4 @@ public class Main {
 
 ## Intermediate Java Programs
 
-### 1. Factorial Program In Java
+### 1 Factorial Program In Java
