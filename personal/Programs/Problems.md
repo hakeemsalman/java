@@ -24,7 +24,9 @@
 8. To find out whether the given String is Palindrome or not.
 9. To find Armstrong Number between two given number.
 
-## Prime Number Check
+--------------
+
+1. ## Prime Number Check
 ```java
 static boolean isPrime(int n)
     {
@@ -69,7 +71,7 @@ public class Main(){
 
 ---
 
-## Leap Year
+2. ## Leap Year
 
 ```java
  int x=1800;
@@ -99,7 +101,7 @@ This above code works properly :smile:
 
 ---
 
-## Find the Largest number
+3. ## Find the Largest number
 
 ```java
 public class Main{
