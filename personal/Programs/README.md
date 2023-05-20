@@ -1,4 +1,4 @@
-# [Basics.md](#./basics.md)
+# [Basics.md](./basics.md)
 
 Difference Between Sum Of Squares
 Even or Odd
