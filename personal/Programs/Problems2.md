@@ -32,9 +32,9 @@
 
 # [Intermediate Java Programs](#intermediate-java-programs)
 1. [Factorial Program In Java](#1-factorial-program-in-java)
-2. Calculate Electricity Bill
-3. Calculate Average Of N Numbers
-4. Calculate Discount Of Product
+2. [Calculate Electricity Bill](#2-calculate-electricity-bill)
+3. [Calculate Average Of N Numbers](#3-calculate-average-of-n-numbers)
+4. [Calculate Discount Of Product](#4-calculate-discount-of-product)
 5. Calculate Distance Between Two Points 
 6. Calculate Commission Percentage
 7. Power In Java
@@ -52,7 +52,7 @@
 19. HCF Of Two Numbers Program
 20. LCM Of Two Numbers
 21. Java Program Vowel Or Consonant 
-22. Perfect Number In Java
+22. [Perfect Number In Java](#22-perfect-numbers)
 23. Check Leap Year Or Not
 24. Sum Of A Digits Of Number
 25. Kunal is allowed to go out with his friends only on the even days of a given month. Write a program to count the number of days he can go out in the month of August.
