@@ -25,7 +25,7 @@
 10. Find max value in Array
 11. Swap values in Array
 
-# [Functions.md](./Problems2.md)
+# [Functions.md](./Problems3.md)
 Define two methods to print the maximum and the minimum number respectively among three numbers entered by the user.
 
 Define a program to find out whether a given number is even or odd.
