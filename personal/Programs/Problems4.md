@@ -2,7 +2,7 @@
 > CLICK on ***solution*** to see the Solutions.
 ### Easy
 1. [Build Array from Permutation](https://leetcode.com/problems/build-array-from-permutation/)  [***solution***](#build-array)
-2. [Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/)  [***solution***](#)
+2. [Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/)  [solution](#concentration-array)
 3. [Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/)  [***solution***](#)
 4. [Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth/)  [***solution***](#)
 5. [Shuffle the Array](https://leetcode.com/problems/shuffle-the-array/)  [***solution***](#)
@@ -61,4 +61,38 @@ class Solution {
     }
 }
 ```
+## Concentration Array
+```java
+// My solution
+class Solution {
+    public int[] getConcatenation(int[] nums) {
+        int[] ans = new int[2 * nums.length];
+      
+        for(int i = 0;i< nums.length;i++) {
+            ans[i] = nums[i];
+        }
+        for (int j = 0; j <  nums.length; j++) {
+            ans[nums.length +j] = nums[j];
+        }
+        return ans;
+    }
+}
 
+// Somebody answer in discussion by Bhaskar-Kumar
+
+class Solution {
+    public int[] getConcatenation(int[] nums) {
+        int[] res= new int[2*nums.length];
+
+        for(int i=0; i<res.length;i++){
+            if(i<nums.length){
+                res[i]=nums[i];
+            }else{
+                res[i]=nums[i-nums.length];
+            }
+        }
+
+        return res;
+    }
+}    
+```
