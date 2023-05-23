@@ -27,40 +27,6 @@
 
 # [Condition & Loops](./Problems2.md)
 
-Fibonacci Series In Java Programs
-Subtract the Product and Sum of Digits of an Integer
-Input a number and print all the factors of that number (use loops).
-Take integer inputs till the user enters 0 and print the sum of all numbers (HINT: while loop)
-Take integer inputs till the user enters 0 and print the largest number from all.
-Addition Of Two Numbers
-Intermediate Java Programs
-Factorial Program In Java
-Calculate Electricity Bill
-Calculate Average Of N Numbers
-Calculate Discount Of Product
-Calculate Distance Between Two Points
-Calculate Commission Percentage
-Power In Java
-Calculate Depreciation of Value
-Calculate Batting Average
-Calculate CGPA Java Program
-Compound Interest Java Program
-Calculate Average Marks
-Sum Of N Numbers
-Armstrong Number In Java
-Find Ncr & Npr
-Reverse A String In Java
-Find if a number is palindrome or not
-Future Investment Value
-HCF Of Two Numbers Program
-LCM Of Two Numbers
-Java Program Vowel Or Consonant
-Perfect Number In Java
-Check Leap Year Or Not
-Sum Of A Digits Of Number
-Kunal is allowed to go out with his friends only on the even days of a given month. Write a program to count the number of days he can go out in the month of August.
-Write a program to print the sum of negative numbers, sum of positive even numbers and the sum of positive odd numbers from a list of numbers (N) entered by the user. The list terminates when the user enters a zer
-
 
 ---
 
@@ -99,3 +65,5 @@ Also,
 12. Write a function to check if a given triplet is a Pythagorean triplet or not. (A Pythagorean triplet is when the sum of the square of two numbers is equal to the square of the third number).
 13. Write a function that returns all prime numbers between two given numbers.
 14. Write a function that returns the sum of first n natural numbers.
+
+# [Leetcode Problems](./Problems4.md)
