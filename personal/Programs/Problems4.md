@@ -1,7 +1,7 @@
 ## Submit the following on your Leetcode profile itself.
 
 ### Easy
-1. [Build Array from Permutation](https://leetcode.com/problems/build-array-from-permutation/)
+1. [Build Array from Permutation](https://leetcode.com/problems/build-array-from-permutation/)  [SOLUTION](#build-array)
 2. [Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/)
 3. [Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/)
 4. [Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth/)
@@ -46,3 +46,19 @@
 1. [Max Value of Equation](https://leetcode.com/problems/max-value-of-equation/)
 2. [First Missing Positive](https://leetcode.com/problems/first-missing-positive/)
 3. [Good Array](https://leetcode.com/problems/check-if-it-is-a-good-array/)
+
+# Solutions
+
+## Build Array
+```java
+class Solution {
+    public int[] buildArray(int[] nums) {
+        int[] ans = new int[nums.length];
+        for(int i = 0;i< nums.length;i++){
+            ans[i] = nums[nums[i]];
+        }
+        return ans;
+    }
+}
+```
+
