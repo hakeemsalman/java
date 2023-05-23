@@ -1,7 +1,7 @@
 ## Submit the following on your Leetcode profile itself.
 > CLICK on ***solution*** to see the Solutions.
 ### Easy
-1. [Build Array from Permutation](https://leetcode.com/problems/build-array-from-permutation/)  [***solution***](#build-array)
+1. [Build Array from Permutation](https://leetcode.com/problems/build-array-from-permutation/)  [solution](#build-array)
 2. [Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/)  [solution](#concentration-array)
 3. [Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/)  [***solution***](#)
 4. [Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth/)  [***solution***](#)
