@@ -4,7 +4,7 @@
 1. [Build Array from Permutation](https://leetcode.com/problems/build-array-from-permutation/)  &rarr;[solution](#build-array)&larr;
 2. [Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/)  &rarr;[solution](#concentration-array)&larr;
 3. [Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/) &rarr;[solution](#running-sum)&larr;
-4. [Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth/)  &rarr;[solution](#)&larr;
+4. [Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth/)  &rarr;[solution](#richest-customer-wealth)&larr;
 5. [Shuffle the Array](https://leetcode.com/problems/shuffle-the-array/)  [***solution***](#)
 6. [Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/)  [***solution***](#)
 7. [Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs/)  [***solution***](#)
@@ -108,6 +108,25 @@ class Solution {
               sum[i]=temp;
         }
         return sum;
+    }
+}
+```
+## Richest Customer Wealth
+
+```java
+class Solution {
+    public int maximumWealth(int[][] accounts) {
+        int sum = 0,max = Integer.MIN_VALUE;
+        for (int i = 0; i < accounts.length; i++) {
+            for (int j = 0; j < accounts[i].length; j++) {
+                sum+=accounts[i][j];
+            }
+            if(sum > max ){
+                max = sum;
+            }
+            sum = 0;
+        }
+        return max;
     }
 }
 ```
