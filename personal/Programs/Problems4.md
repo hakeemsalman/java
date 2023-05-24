@@ -1,10 +1,10 @@
 ## Submit the following on your Leetcode profile itself.
 > CLICK on ***solution*** to see the Solutions.
 ### Easy
-1. [Build Array from Permutation](https://leetcode.com/problems/build-array-from-permutation/)  -->[solution](#build-array)<--
-2. [Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/)  -->[solution](#concentration-array)
-3. [Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/)  -->[solution](#)
-4. [Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth/)  -->[solution](#)
+1. [Build Array from Permutation](https://leetcode.com/problems/build-array-from-permutation/)  &rarr;[solution](#build-array)&larr;
+2. [Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/)  &rarr;[solution](#concentration-array)&larr;
+3. [Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/) &rarr;[solution](#running-sum)&larr;
+4. [Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth/)  &rarr;[solution](#)&larr;
 5. [Shuffle the Array](https://leetcode.com/problems/shuffle-the-array/)  [***solution***](#)
 6. [Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/)  [***solution***](#)
 7. [Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs/)  [***solution***](#)
@@ -95,4 +95,19 @@ class Solution {
         return res;
     }
 }    
+```
+
+## Running Sum
+```java
+class Solution {
+    public int[] runningSum(int[] nums) {
+         int[] sum = new int[nums.length];
+         int temp = 0;
+        for (int i = 0; i < nums.length; i++) {
+              temp += nums[i];
+              sum[i]=temp;
+        }
+        return sum;
+    }
+}
 ```
