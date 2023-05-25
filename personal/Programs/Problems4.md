@@ -130,3 +130,20 @@ class Solution {
     }
 }
 ```
+
+## Shuffle the Array
+
+```java
+class Solution {
+    public int[] shuffle(int[] nums, int n) {
+        int[] res = new int[nums.length];
+        int count = 0;
+        for(int i = 0 ; i < nums.length;i++){
+            if(i%2==0){
+                res[i]=nums[count++];
+            } else res[i]=nums[n++];
+        }
+        return res;
+    }
+}
+```
