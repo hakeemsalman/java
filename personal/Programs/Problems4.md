@@ -5,7 +5,7 @@
 2. [Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/)  &rarr;[solution](#concentration-array)&larr;
 3. [Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/) &rarr;[solution](#running-sum)&larr;
 4. [Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth/)  &rarr;[solution](#richest-customer-wealth)&larr;
-5. [Shuffle the Array](https://leetcode.com/problems/shuffle-the-array/)  [***solution***](#shuffle-array)
+5. [Shuffle the Array](https://leetcode.com/problems/shuffle-the-array/)  [***solution***](#shuffle-the-array)
 6. [Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/)  [***solution***](#)
 7. [Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs/)  [***solution***](#)
 8. [How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/)  [***solution***](#)
