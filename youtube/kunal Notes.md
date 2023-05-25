@@ -710,3 +710,22 @@ public class SearchInRange {
 }
 ```
 ### Find Minimum number
+
+```java
+public class GreetMessage {
+    public static void main(String[] args) {
+        int[] arr = {1,23,-34,21,34,-3,54,3};
+        System.out.println("minimum value is "+ min(arr));
+    }
+    static int min(int[] arr){
+        int mini = Integer.MAX_VALUE;
+        for (int i = 0; i < arr.length; i++) {
+            if(arr[i]<mini){
+                mini = arr[i];
+            }
+        }
+        return mini;
+    }
+}
+
+```
