@@ -8,7 +8,7 @@
 5. [Shuffle the Array](https://leetcode.com/problems/shuffle-the-array/)   &rarr;[solution](#shuffle-the-array)&larr;
 6. [Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/)   &rarr;[solution](#kids-candies)&larr;
 7. [Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs/)   &rarr;[solution](#number-of-good-pairs)&larr;
-8. [How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/)   &rarr;[solution](#)&larr;
+8. [How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/)   &rarr;[solution](#smaller-than-current-number)&larr;
 9. [Create Target Array in the Given Order](https://leetcode.com/problems/create-target-array-in-the-given-order/)   &rarr;[solution](#)
 10. [Check if the Sentence Is Pangram](https://leetcode.com/problems/check-if-the-sentence-is-pangram/)   &rarr;[solution](#)
 11. [Count Items Matching a Rule](https://leetcode.com/problems/count-items-matching-a-rule/)  [***solution***](#)
@@ -198,6 +198,25 @@ class Solution {
             }
         }
         return count;
+    }
+}
+```
+
+## Smaller than Current Number
+
+```java
+class Solution {
+    public int[] smallerNumbersThanCurrent(int[] nums) {
+        int count = 0;
+        int[] res = new int[nums.length];
+        for (int i = 0; i < nums.length; i++) {
+            for (int j = 0; j < nums.length; j++) {
+                if (nums[i]>nums[j]) count++;
+            }
+            res[i] = count;
+            count = 0;
+        }
+        return res;
     }
 }
 ```
