@@ -6,7 +6,7 @@
 3. [Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/) &rarr;[solution](#running-sum)&larr;
 4. [Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth/)  &rarr;[solution](#richest-customer-wealth)&larr;
 5. [Shuffle the Array](https://leetcode.com/problems/shuffle-the-array/)  [***solution***](#shuffle-the-array)
-6. [Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/)  [***solution***](#)
+6. [Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/)  [***solution***](#kid-candies)
 7. [Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs/)  [***solution***](#)
 8. [How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/)  [***solution***](#)
 9. [Create Target Array in the Given Order](https://leetcode.com/problems/create-target-array-in-the-given-order/)  [***solution***](#)
@@ -160,6 +160,27 @@ class Solution {
             } else res[i]=nums[n++];
         }
         return res;
+    }
+}
+```
+## Kids Candies
+```java
+import java.util.ArrayList;
+class Solution {
+    public List<Boolean> kidsWithCandies(int[] candies, int extraCandies) {
+        ArrayList<Boolean> great = new ArrayList<>();
+        int max = 0;
+        for(int i = 0;i<candies.length;i++ ){
+            if(candies[i] > max){
+                max = candies[i];
+            }
+        }
+        for(int j = 0;j<candies.length;j++){
+            if(candies[j]+extraCandies >= max) 
+                great.add(true);
+            else great.add(false);
+        }
+        return great;
     }
 }
 ```
