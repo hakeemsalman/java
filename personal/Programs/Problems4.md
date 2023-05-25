@@ -5,12 +5,12 @@
 2. [Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/)  &rarr;[solution](#concentration-array)&larr;
 3. [Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/) &rarr;[solution](#running-sum)&larr;
 4. [Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth/)  &rarr;[solution](#richest-customer-wealth)&larr;
-5. [Shuffle the Array](https://leetcode.com/problems/shuffle-the-array/)  [***solution***](#shuffle-the-array)
-6. [Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/)  [***solution***](#kids-candies)
-7. [Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs/)  [***solution***](#number-of-good-pairs)
-8. [How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/)  [***solution***](#)
-9. [Create Target Array in the Given Order](https://leetcode.com/problems/create-target-array-in-the-given-order/)  [***solution***](#)
-10. [Check if the Sentence Is Pangram](https://leetcode.com/problems/check-if-the-sentence-is-pangram/)  [***solution***](#)
+5. [Shuffle the Array](https://leetcode.com/problems/shuffle-the-array/)   &rarr;[solution](#shuffle-the-array)&larr;
+6. [Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/)   &rarr;[solution](#kids-candies)&larr;
+7. [Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs/)   &rarr;[solution](#number-of-good-pairs)&larr;
+8. [How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/)   &rarr;[solution](#)&larr;
+9. [Create Target Array in the Given Order](https://leetcode.com/problems/create-target-array-in-the-given-order/)   &rarr;[solution](#)
+10. [Check if the Sentence Is Pangram](https://leetcode.com/problems/check-if-the-sentence-is-pangram/)   &rarr;[solution](#)
 11. [Count Items Matching a Rule](https://leetcode.com/problems/count-items-matching-a-rule/)  [***solution***](#)
 12. [Find the Highest Altitude](https://leetcode.com/problems/find-the-highest-altitude/)  [***solution***](#)
 13. [Flipping an Image](https://leetcode.com/problems/flipping-an-image/)  [***solution***](#)
