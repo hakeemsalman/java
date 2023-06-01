@@ -10,7 +10,7 @@
 7. [Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs/)   &rarr;[solution](#number-of-good-pairs)&larr;
 8. [How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/)   &rarr;[solution](#smaller-than-current-number)&larr;
 9. [Create Target Array in the Given Order](https://leetcode.com/problems/create-target-array-in-the-given-order/)   &rarr;[solution](#)
-10. [Check if the Sentence Is Pangram](https://leetcode.com/problems/check-if-the-sentence-is-pangram/)   &rarr;[solution](#)
+10. [Check if the Sentence Is Pangram](https://leetcode.com/problems/check-if-the-sentence-is-pangram/)   &rarr;[solution](#check-sentence-pangram)&larr;
 11. [Count Items Matching a Rule](https://leetcode.com/problems/count-items-matching-a-rule/)  [***solution***](#)
 12. [Find the Highest Altitude](https://leetcode.com/problems/find-the-highest-altitude/)  [***solution***](#)
 13. [Flipping an Image](https://leetcode.com/problems/flipping-an-image/)  [***solution***](#)
@@ -243,3 +243,49 @@ int[] count = new int[101];
         }
         
         return res;      
+```
+
+## Check Sentence Pangram
+
+```java
+                    //  My program own program O(n2)
+public class Main{
+
+    public static void main(Strings[] args){
+        System.out.println(checkIfPangram("thequickbrownfoxjumpsoverthelazydog"));
+    }
+    public boolean checkIfPangram(String sentence) {
+       int count = 0;
+        for(int i = 97;i<=122;i++) {
+            for (int j = 0; j < sentence.length(); j++) {
+                if (sentence.charAt(j) == (char) i) {
+                    count++;
+                    break;
+                }
+            }
+        }
+        return count == 26;
+    }
+
+}
+
+                    // Leetcode Solution
+public class Main{
+    public static void main(Strings[] args){
+        System.out.println(checkIfPangram("thequickbrownfoxjumpsoverthelazydog"));
+    }
+    public boolean checkIfPangram(String sentence) {
+        for (int i = 0; i < 26; ++i) {
+            char currChar = (char)('a' + i);
+            if (sentence.indexOf(currChar) == -1)
+                return false;
+        }
+        return true;
+    }
+}
+
+
+```
+
+
+
