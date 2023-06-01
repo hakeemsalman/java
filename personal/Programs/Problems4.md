@@ -12,7 +12,7 @@
 9. [Create Target Array in the Given Order](https://leetcode.com/problems/create-target-array-in-the-given-order/)   &rarr;[solution](#)
 10. [Check if the Sentence Is Pangram](https://leetcode.com/problems/check-if-the-sentence-is-pangram/)   &rarr;[solution](#check-sentence-pangram)&larr;
 11. [Count Items Matching a Rule](https://leetcode.com/problems/count-items-matching-a-rule/)   &rarr;[solution](#)
-12. [Find the Highest Altitude](https://leetcode.com/problems/find-the-highest-altitude/)   &rarr;[solution](#)
+12. [Find the Highest Altitude](https://leetcode.com/problems/find-the-highest-altitude/)   &rarr;[solution](#find-the-heighest-altitude)
 13. [Flipping an Image](https://leetcode.com/problems/flipping-an-image/)   &rarr;[solution](#)
 14. [Cells with Odd Values in a Matrix](https://leetcode.com/problems/cells-with-odd-values-in-a-matrix/)   &rarr;[solution](#)
 15. [Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum/)   &rarr;[solution](#)
@@ -287,5 +287,25 @@ public class Main{
 
 ```
 
+## Find the Highest Altitude
+```java
+public class Main(
+    public static void main(Strings[] args){
+        int[] arr = {-5,1,5,0,-7};
+        System.out.println(largestAltitude(arr));
+    }
+    public int largestAltitude(int[] gain) {
+         int a = 0, temp = 0 , minValue = 0;
+        for(int i = 0;i<gain.length;i++){
+            temp = temp + gain[i];
+            if(temp > minValue){
+                minValue = temp;
+            }
+        }
+        return minValue;
+    }
 
+
+)
+```
 
