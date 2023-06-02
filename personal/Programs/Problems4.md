@@ -13,7 +13,7 @@
 10. [Check if the Sentence Is Pangram](https://leetcode.com/problems/check-if-the-sentence-is-pangram/)   &rarr;[solution](#check-sentence-pangram)&larr;
 11. [Count Items Matching a Rule](https://leetcode.com/problems/count-items-matching-a-rule/)   &rarr;[solution](#)
 12. [Find the Highest Altitude](https://leetcode.com/problems/find-the-highest-altitude/)   &rarr;[solution](#find-the-heighest-altitude)&larr;
-13. [Flipping an Image](https://leetcode.com/problems/flipping-an-image/)   &rarr;[solution](#)
+13. [Flipping an Image](https://leetcode.com/problems/flipping-an-image/)   &rarr;[solution](#flipping-an-image)&larr;
 14. [Cells with Odd Values in a Matrix](https://leetcode.com/problems/cells-with-odd-values-in-a-matrix/)   &rarr;[solution](#)
 15. [Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum/)   &rarr;[solution](#)
 16. [Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits/)  [***solution***](#)
@@ -308,4 +308,35 @@ public class Main(
 
 )
 ```
+
+
+## Flipping an Image
+
+```java
+public class Main{
+    public static void main(Strings[] args){
+    int[][] arr = {{1,1,0},{1,0,1},{0,0,0}};
+        flipAndInvertImage();
+    }
+    static public int[][] flipAndInvertImage(int[][] image) {
+        int [][] res = new int[image.length][image.length];
+        int temp = 0, count = 0;
+        for(int i = 0;i<image.length;i++){
+            count = 0;
+            for(int j = image[i].length -1; j>=0;j--){
+                res[i][count] = image[i][j];
+                if(res[i][count] ==1){
+                    res[i][count] = 0;
+                } else res[i][count] =1;
+                count++;
+            }
+        }
+        return res;
+    }
+}
+
+```
+
+
+
 
