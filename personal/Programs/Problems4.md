@@ -15,7 +15,7 @@
 12. [Find the Highest Altitude](https://leetcode.com/problems/find-the-highest-altitude/)   &rarr;[solution](#find-the-heighest-altitude)&larr;
 13. [Flipping an Image](https://leetcode.com/problems/flipping-an-image/)   &rarr;[solution](#flipping-an-image)&larr;
 14. [Cells with Odd Values in a Matrix](https://leetcode.com/problems/cells-with-odd-values-in-a-matrix/)   &rarr;[solution](#)
-15. [Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum/)   &rarr;[solution](#)
+15. [Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum/)   &rarr;[solution](#matrix-diagonal-sum)&larr;
 16. [Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits/)  [***solution***](#)
 17. [Transpose Matrix](https://leetcode.com/problems/transpose-matrix/)   &rarr;[solution](#)
 18. [Add to Array-Form of Integer](https://leetcode.com/problems/add-to-array-form-of-integer/)   &rarr;[solution](#)
@@ -332,6 +332,45 @@ public class Main{
             }
         }
         return res;
+    }
+}
+
+```
+
+## Matrix Diagonal Sum
+```java
+class Solution {
+     public static void main(Strings[] args){
+     /*
+     mat = [[1,1,1,1],
+              [1,1,1,1],
+              [1,1,1,1],
+              [1,1,1,1]]
+              
+     output = 8;
+     */
+    int[][] arr = {{1,2,3},
+              {4,5,6},
+              {7,8,9}};
+              
+           /*output = 25*/
+       int ans = diagonalSum(arr);
+       System.out.println(ans);
+    }
+    
+/*                      Just use below method in Leetcode above main method is for practice                       */
+
+    public int diagonalSum(int[][] mat) {
+        int sum = 0,N = mat.length-1;
+        for(int i = 0; i< mat.length;i++){
+            for(int j = 0 ; j<mat[i].length;j++){
+                if(i==j || (i+j)%N==0 ){
+                    sum += mat[i][j];
+                }
+            }
+            
+        }
+        return sum;
     }
 }
 
