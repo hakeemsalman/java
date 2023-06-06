@@ -16,7 +16,7 @@
 13. [Flipping an Image](https://leetcode.com/problems/flipping-an-image/)   &rarr;[solution](#flipping-an-image)&larr;
 14. [Cells with Odd Values in a Matrix](https://leetcode.com/problems/cells-with-odd-values-in-a-matrix/)   &rarr;[solution](#)
 15. [Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum/)   &rarr;[solution](#matrix-diagonal-sum)&larr;
-16. [Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits/)  [***solution***](#)
+16. [Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits/)  ***&rarr;[solution](#find-the-number-of-even-digits)&larr;***
 17. [Transpose Matrix](https://leetcode.com/problems/transpose-matrix/)   &rarr;[solution](#)
 18. [Add to Array-Form of Integer](https://leetcode.com/problems/add-to-array-form-of-integer/)   &rarr;[solution](#)
 19. [Maximum Population Year](https://leetcode.com/problems/maximum-population-year/)   &rarr;[solution](#)
@@ -396,6 +396,48 @@ public int diagonalSum(int[][] mat) {
     }
 ```
 
+## Find the number of Even Digits
+```java
+public static void main(Strings[] args){
+    int nums = {12,345,2,6,7896};
+    int ans = findNumbers(nums);
+    System.out.println(ans);
+}
 
+/*                      Just use below method in Leetcode above main method is for practice                       */
+ public int findNumbers(int[] nums) {
+        return countNumbers(nums);
+    }
+    
+    static int countNumbers(int[] arr){
+        
+        int count = 0;
+        for(int i = 0; i<arr.length;i++){
+            int ans = count2(arr[i]);
+            boolean value  = even(ans);
+            if(value){
+                count++;
+            }
+        }
+        return count;
+    }
+    static int count2(int a){
+        return (int)(Math.log10(a) +1);
+    }
+    static int count(int a){
+        int count = 0;
+        while(a>0){
+            count++;
+            a/=10;
+        }
+        return count;
+    }
+    static boolean even(int b){
+        if(b == 0){
+            return false;
+        }
+        return b%2==0;
+    }
+```
 
 
