@@ -161,3 +161,19 @@ public class BinarySearch {
 
 ```
 
+
+### Find the Floor of a Number
+
+If you have given an array, `arr = {2,3,5,9,14,16,18}`,  
+
+floor number = largest element in array less or equal to target
+
+```
+examples:-
+--------------------
+floor(arr, target=14) => 9
+floor(arr, target=15) => 14
+floor(arr, target=4) => 3
+floor(arr, target=9) => 9
+
+```
