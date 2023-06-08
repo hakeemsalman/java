@@ -98,6 +98,11 @@ And now it's
 
 HEAD -> C1
 
+To complete this level, let's detach HEAD from `bugFix` and attach it to the commit instead.
+Specify this commit by its hash. The hash for each commit is displayed on the circle that represents the commit.
+
+![](./assets/head-starting-exercise-1.png)
+
 ### Relative Refs
 
 Moving around in Git by specifying commit hashes can get a bit tedious. In the real world you won't have a nice commit tree visualization next to your terminal, so you'll have to use `git log` to see hashes.
