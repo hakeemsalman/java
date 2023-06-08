@@ -58,9 +58,6 @@ Here what's happening, commit is going to `main` and `bugfix` is not merging wit
 
 Since `bugFix` was an ancestor of `main`, git didn't have to do any work; it simply just moved `bugFix` to the same commit `main` was attached to.
 
-
-
-
 ## Git Rebase
 
 The second way of combining work between branches is rebasing. Rebasing essentially takes a set of commits, "copies" them, and plops them down somewhere else.
@@ -72,7 +69,6 @@ While this sounds confusing, the advantage of rebasing is that it can be used to
 ![](./assets/rebase/rebase-3.png)
 ![](./assets/rebase/rebase-4.png)
 
-
 ## Head
 
 First we have to talk about "HEAD". HEAD is the symbolic name for the currently checked out commit -- it's essentially what commit you're working on top of.
@@ -82,7 +78,11 @@ HEAD always points to the most recent commit which is reflected in the working t
 Normally HEAD points to a branch name (like bugFix). When you commit, the status of bugFix is altered and this change is visible through HEAD.
 
 Try this one
-************
+
+---
+
+![](./assets/head-starting-1.png)
+![](./assets/head-starting-2.png)
 
 > $ git checkout C1; git checkout main; git commit; git checkout c2
 
@@ -97,7 +97,6 @@ if type below command
 And now it's
 
 HEAD -> C1
-
 
 ### Relative Refs
 
@@ -143,7 +142,6 @@ Say you want to move a lot of levels up in the commit tree. It might be tedious 
 
 The tilde operator (optionally) takes in a trailing number that specifies the number of parents you would like to ascend. Let's see it in action.
 
-
 ![](./assets/operator-1.png)
 
 ## Branch forcing
@@ -158,3 +156,9 @@ moves (by force) the main branch to three parents behind HEAD.
 
 ![](./assets/branch-forcing-1.png)
 
+![](./assets/branch-forcing-2.png)
+![](./assets/branch-forcing-3.png)
+![](./assets/branch-forcing-4.png)
+
+Now that you have seen relative refs and branch forcing in combination, let's use them to solve the next level.
+To complete this level, move `HEAD`, `main`, and `bugFix` to their goal destinations shown.
