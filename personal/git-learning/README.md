@@ -103,6 +103,11 @@ Specify this commit by its hash. The hash for each commit is displayed on the ci
 
 ![](./assets/head-starting-exercise-1.png)
 
+```html
+<!-- SOLUTION -->
+git checkout c4
+```
+
 ### Relative Refs
 
 Moving around in Git by specifying commit hashes can get a bit tedious. In the real world you won't have a nice commit tree visualization next to your terminal, so you'll have to use `git log` to see hashes.
@@ -126,7 +131,7 @@ Moving upwards a number of times with `~<num>`
 
 > $ git checkout main^
 
-=========================================================================
+====================================================================================
 
 ![](./assets/detaching-head-3.png)
 
@@ -134,11 +139,11 @@ Moving upwards a number of times with `~<num>`
 
 ![](./assets/detaching-head-5.png)
 
-![](./assets/detaching-video-1.webm)
+![detaching-video-1.webm](./assets/detaching-video-1.webm)
 
 ### Exercise Relative ref
 
-![](./assets/detaching-video-1.webm)
+![detaching-video-2.webm](./assets/detaching-video-2.webm)
 
 ### "~" operator
 
@@ -148,6 +153,7 @@ Say you want to move a lot of levels up in the commit tree. It might be tedious 
 The tilde operator (optionally) takes in a trailing number that specifies the number of parents you would like to ascend. Let's see it in action.
 
 ![](./assets/operator-1.png)
+![](./assets/operator-2.png)
 
 ## Branch forcing
 
@@ -160,10 +166,20 @@ One of the most common ways I use relative refs is to move branches around. You 
 moves (by force) the main branch to three parents behind HEAD.
 
 ![](./assets/branch-forcing-1.png)
-
 ![](./assets/branch-forcing-2.png)
-![](./assets/branch-forcing-3.png)
-![](./assets/branch-forcing-4.png)
 
 Now that you have seen relative refs and branch forcing in combination, let's use them to solve the next level.
 To complete this level, move `HEAD`, `main`, and `bugFix` to their goal destinations shown.
+
+![](./assets/branch-forcing-exercise-1.png)
+
+```html
+<!-- SOLUTION -->
+git branch -f main c6; git branch -f bugFix c0; git checkout c1
+```
+
+Note:-
+
+- Use `git branch -f main c4` to MOVE `main` forcely to `c4` commit hash
+- Use `git checkout` only works on `HEAD` not on branches
+
