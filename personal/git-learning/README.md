@@ -212,3 +212,5 @@ Keep in mind that `pushed` is a remote branch and `local` is a local branch -- t
 
 git reset local^; git checkout pushed; git revert pushed;
 ```
+
+## Moving Work Around
