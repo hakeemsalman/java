@@ -175,7 +175,7 @@ To complete this level, move `HEAD`, `main`, and `bugFix` to their goal destinat
 
 ```html
 <!-- SOLUTION -->
-git branch -f main c6 git branch -f bugFix c0 git checkout c1
+git branch -f main c6; git branch -f bugFix c0; git checkout c1
 ```
 
 Note:-
@@ -198,3 +198,17 @@ There are two primary ways to undo changes in Git -- one is using `git reset` an
 
 ![](./assets/git-revert-1.png)
 ![](./assets/git-revert-2.png)
+
+### Reverse exercise
+
+To complete this level, reverse the most recent commit on both `local` and `pushed`. You will revert two commits total (one per branch).
+
+Keep in mind that `pushed` is a remote branch and `local` is a local branch -- that should help you choose your methods.
+
+![](./assets/git-reset-exercise.png)
+
+```html
+<!-- SOLUTION -->
+
+git reset local^; git checkout pushed; git revert pushed;
+```
