@@ -175,7 +175,7 @@ To complete this level, move `HEAD`, `main`, and `bugFix` to their goal destinat
 
 ```html
 <!-- SOLUTION -->
-git branch -f main c6; git branch -f bugFix c0; git checkout c1
+git branch -f main c6 git branch -f bugFix c0 git checkout c1
 ```
 
 Note:-
@@ -183,3 +183,11 @@ Note:-
 - Use `git branch -f main c4` to MOVE `main` forcely to `c4` commit hash
 - Use `git checkout` only works on `HEAD` not on branches
 
+## Reversing Changes in Git
+
+There are many ways to reverse changes in Git. And just like committing, reversing changes in Git has both a low-level component (staging individual files or chunks) and a high-level component (how the changes are actually reversed). Our application will focus on the latter.
+
+There are two primary ways to undo changes in Git -- one is using `git reset` and the other is using `git revert`. We will look at each of these in the next dialog
+
+![](./assets/git-reset-1.png)
+![](./assets/git-reset-2.png)
