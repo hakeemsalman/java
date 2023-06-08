@@ -189,5 +189,12 @@ There are many ways to reverse changes in Git. And just like committing, reversi
 
 There are two primary ways to undo changes in Git -- one is using `git reset` and the other is using `git revert`. We will look at each of these in the next dialog
 
+### Git Reset
+
 ![](./assets/git-reset-1.png)
 ![](./assets/git-reset-2.png)
+
+### Git Revert
+
+![](./assets/git-revert-1.png)
+![](./assets/git-revert-2.png)
