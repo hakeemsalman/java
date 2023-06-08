@@ -131,6 +131,8 @@ Moving upwards a number of times with `~<num>`
 
 > $ git checkout main^
 
+NOTE:- Here `main` does not move upwards only `HEAD` move upwards. And `main` still stay there.
+
 ====================================================================================
 
 ![](./assets/detaching-head-3.png)
