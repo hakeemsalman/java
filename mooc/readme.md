@@ -27,7 +27,7 @@ public class Example {
 Welcome to the IT course - you will learn to program!
 ```
 
-***Assignment***
+***Assignment 1***
 The exercise template has the following boilerplate code:
 Display your Name by using “sop” [ System.out.println(“ ”); ]
 ```java
@@ -57,4 +57,99 @@ public class Ohjelma {
 Hello world!
 … and the universe!
 ```
+***Assignment 2***  
+Q) Write a program to print a given output.
+**output**
+```cs
+Once upon a time
+there was
+a program
+```
+
+#### Comments
+- Single-line comments are marked with two slashes //.
+- Multi-line comments are marked with a slash and an asterisk /*, and closed with an asterisk followed by a slash */
+
+```java
+public class Comments {
+    public static void main(String[] args) {
+        // Printing
+        System.out.println("Text to print");
+        System.out.println("More text to print!");
+        /* Next:
+        - more on printing
+        - more practice
+        - variables
+        - ...
+        */
+        System.out.println("Some other text to print");
+        // System.out.println("Trying stuff out")
+    }
+}
+```
+
+### Lesson 2 - Reading input
+
+- Learn to write a program that reads text written by a user.
+- Know what a "string" refers to in programming.
+- Know how to join (i.e., "concatenate") strings together.
+
+#### Scanner
+
+For reading input, we use the Scanner tool that comes with Java.
+
+```java
+import java.util.Scanner;
+
+public class Program {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // We can now use the scanner tool.
+        // This tool is used to read input.
+    }
+}
+```
+
+**Example:-**
+
+
+```java
+To use the Scanner tool, we have to import the Scanner utility.
+
+// Introduce the scanner tool used for reading user input
+import java.util.Scanner;
+
+public class Program {
+
+    public static void main(String[] args) {
+        // Create a tool for reading user input and name it scanner
+        Scanner scanner = new Scanner(System.in);
+
+        // Print "Write a message: "
+        System.out.println("Write a message: ");
+
+        // Read the string written by the user, and assign it
+        // to program memory "String message = (string that was given as input)"
+        String message = scanner.nextLine();
+
+        // Print the message written by the user
+        System.out.println(“Your message, ”+message);
+    }
+}
+```
+***Assignment 3***
+Write a program that asks the user to write a string.
+```cs
+Console:
+Write a message:
+Bye
+Bye
+
+Write a message:
+Once upon a time...
+Once upon a time…
+```
+
 
