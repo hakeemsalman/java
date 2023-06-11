@@ -131,13 +131,13 @@ public class BinarySearch {
     public static void main(String[] args) {
         int[] arr = {-18, -12, -4, 0, 2, 3, 4, 15, 16, 18, 22, 45, 89};
         int target = 22;
-        int ans = binarySearch(arr, target); 
+        int ans = ceiling(arr, target); 
         System.out.println(ans);
     }
 
     // return the index
     // return -1 if it does not exist
-    static int binarySearch(int[] arr, int target) {  
+    static int ceiling(int[] arr, int target) {  
         int start = 0;
         int end = arr.length - 1;
 
@@ -184,15 +184,18 @@ public class BinarySearch {
     public static void main(String[] args) {
         int[] arr = {-18, -12, -4, 0, 2, 3, 4, 15, 16, 18, 22, 45, 89};
         int target = 22;
-        int ans = binarySearch(arr, target); 
+        int ans = floor(arr, target); 
         System.out.println(ans);
     }
 
     // return the index
-    // return -1 if it does not exist
-    static int binarySearch(int[] arr, int target) {  
+    static int floor(int[] arr, int target) {  
         int start = 0;
         int end = arr.length - 1;
+
+        if(target > arr[arr.length - 1]){
+            return -1;
+        }   
 
         while(start <= end) {
             // find the middle element
@@ -212,4 +215,27 @@ public class BinarySearch {
     }
 }
 
+```
+
+## Leetcode Problem
+
+[https://leetcode.com/problems/find-smallest-letter-greater-than-target/](https://leetcode.com/problems/find-smallest-letter-greater-than-target/)
+
+```java
+class Solution {
+    public char nextGreatestLetter(char[] letters, char target) {
+       int start = 0;
+        int end  = letters.length - 1;
+        
+        while(start <= end){
+            int mid = start + (end - start)/2;
+            if(target < letters[mid]){
+                 end = mid - 1;
+            } else {
+                start = mid + 1;
+            } 
+        }
+        return letters[start % letters.length];
+    }
+}
 ```
