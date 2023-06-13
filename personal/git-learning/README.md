@@ -52,11 +52,20 @@ We will `merge` the branch `bugFix` into `main`.
 
 > $ git merge bugfix
 
+![merging-1.png](./assets/merging-1.png)
+
 Here what's happening, commit is going to `main` and `bugfix` is not merging with `main`. So to do that, we will be using below command.
+
+![merging-2.png](./assets/merging-2.png)
 
 > $ git checkout bugfix; git merge main
 
 Since `bugFix` was an ancestor of `main`, git didn't have to do any work; it simply just moved `bugFix` to the same commit `main` was attached to.
+
+![merging-3.png](./assets/merging-3.png)
+
+![merging-exercise
+.png](./assets/merging-exercise.png)
 
 ## Git Rebase
 
