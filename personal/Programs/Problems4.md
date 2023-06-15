@@ -440,4 +440,22 @@ public static void main(Strings[] args){
     }
 ```
 
+## Transpose of Array
+
+```java
+class Solution {
+    public int[][] transpose(int[][] matrix) {
+        int N = matrix.length;
+        int[][] res = new int[matrix[0].length][N];
+        for(int i = 0 ; i<N;i++){
+            for(int j = 0; j<matrix[0].length;j++){
+                res[j][i]=matrix[i][j];
+            }
+            
+        }
+        return res;
+    }
+}
+```
+
 
