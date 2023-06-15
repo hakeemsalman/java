@@ -18,7 +18,7 @@
 15. [Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum/)   &rarr;[solution](#matrix-diagonal-sum)&larr;
 16. [Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits/)  ***&rarr;[solution](#find-the-number-of-even-numbers-of-digits)&larr;***
 17. [Transpose Matrix](https://leetcode.com/problems/transpose-matrix/)   ***&rarr;[solution](#transpose-of-array)&larr;***
-18. [Add to Array-Form of Integer](https://leetcode.com/problems/add-to-array-form-of-integer/)   &rarr;[solution](#)
+18. [Add to Array-Form of Integer](https://leetcode.com/problems/add-to-array-form-of-integer/)   ***&rarr;[solution](#add-to-array-form-integer)&larr;***
 19. [Maximum Population Year](https://leetcode.com/problems/maximum-population-year/)   &rarr;[solution](#)
 20. [Determine Whether Matrix Can Be Obtained By Rotation](https://leetcode.com/problems/determine-whether-matrix-can-be-obtained-by-rotation/)  &rarr;[solution](#)
 21. [Two Sum](https://leetcode.com/problems/two-sum/)   &rarr;[solution](#)
@@ -457,5 +457,22 @@ class Solution {
     }
 }
 ```
+## Add to Array Form Integer
 
+```java
+class Solution {
+    public List<Integer> addToArrayForm(int[] num, int k) {
+        List<Integer> listArray = new ArrayList<>(num.length);
+        int len = num.length - 1;
+        while(len>=0 || k>0){
+            if(len>=0){
+                k+=num[len--];
+            }
+            listArray.add(0,k%10);
+            k/=10;
+        }
+        return listArray;
+    }
+}
+```
 
