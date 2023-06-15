@@ -463,6 +463,7 @@ class Solution {
 class Solution {
     public List<Integer> addToArrayForm(int[] num, int k) {
         List<Integer> listArray = new ArrayList<>(num.length);
+        // int carry = 0;
         int len = num.length - 1;
         while(len>=0 || k>0){
             if(len>=0){
@@ -472,6 +473,25 @@ class Solution {
             k/=10;
         }
         return listArray;
+        /*
+        for(int i = num.length-1; i>= 0;i--){
+            int temp = num[i] + k%10 +  carry;
+            k/=10;
+            if(temp>9) {
+                listArray.add(0,temp%10);
+                carry = temp/10;
+            } else {
+                listArray.add(0,temp);
+                carry = 0;
+            }
+        }
+        if(carry>0){
+            listArray.add(0,carry);
+        } 
+        if(k>0){
+            listArray.add(0,k);
+        }
+        */
     }
 }
 ```
