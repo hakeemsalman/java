@@ -189,7 +189,7 @@ public class Main(){
         Scanner scan = new Scanner(System.in);
         System.out.println("Please enter the nth number");
         int n = scan.next();
-        int a = o,b = 1,c = 1;
+        int a = 0,b = 1,c = 1;
         int count = 2;
         if(n == a){
             System.out.println(n+"th is "+a);
@@ -206,7 +206,36 @@ public class Main(){
         }
     }
 }
+
+//  Another method 
+
+// Java program for Fibonacci Series using Space
+// Optimized Method
+public class fibonacci {
+	static int fib(int n)
+	{
+		int a = 0, b = 1, c;
+		if (n == 0)
+			return a;
+		for (int i = 2; i <= n; i++) {
+			c = a + b;
+			a = b;
+			b = c;
+		}
+		return b;
+	}
+
+	public static void main(String args[])
+	{
+		int n = 9;
+		System.out.println(fib(n));
+	}
+};
+
+// This code is contributed by Mihir Joshi
 ```
+> Time Complexity: O(n) 
+> Auxiliary Space: O(1)
 
 ## Counting Occurances
 
